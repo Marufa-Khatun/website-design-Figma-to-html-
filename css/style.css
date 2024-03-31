@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.layout{
+    width: 1200px;
+    height: 1000px;
+    background-color: blue;
+    margin: 50px auto;
+}
+
+.header{
+    height: 100px;
+    background-color: rgb(22, 171, 77);
+
+}
+.banner{
+    height: 400px;
+    background-color: rgb(44, 3, 63);
+}
+.content{
+    height: 400px;
+    background-color: rgb(169, 37, 175);
+}
+.footer{
+    height: 100px;
+    background-color: rgb(11, 99, 99)
+}
+
+.logo{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(27, 61, 75);
+    float: left;
+    text-align: center;
+   
+  
+}
+.menu{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(12, 176, 99);
+    float: left;
+    text-align: right;
+}
+.logo a img{
+    margin-top: 30px;
+  
+}
+
+.main_menu ul li{
+    display: inline-block;
+}
+.main_menu ul li a {
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(86, 71, 128);
+    margin: 30px 10px;
+    display: block;
+    text-align: right;
+    font-size: 26px;
+    font-family: monospace;
+    border-radius: 10px;
+   
+}
+.main_menu ul li a:hover{
+    background-color: rgb(66, 62, 51);
+    transition: all ease 1s ;
+} 
+.banner{
+   
+    background: url(../img/pic1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.banner_txt{
+    text-align: center;
+    padding-top: 20px;
+}
+.banner_txt h1{
+    font-size: 42px;
+    font-family: monospace;
+    text-transform: uppercase;
+
+}
+.banner_txt p {
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 250px;
+   
+}
+.banner_txt button{
+    border-style: none;
+    background-color: rgb(83, 52, 80);
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+
+}
+.banner_txt button:hover{
+    
+    background-color: transparent;
+    border-color: #999;
+    color: black;
+    transition: all 0.5s linear;
+}

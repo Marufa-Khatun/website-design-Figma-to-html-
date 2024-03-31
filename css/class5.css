@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+}
+ul,li{
+    list-style: none;
+}
+
+.layout{
+    height: 1000px;
+    width: 1200px;
+    background-color: grey;
+    margin: 50px auto;
+}
+.header{
+    height: 100px;
+    background-color: aqua;
+
+}
+.banner{
+    height:400px ;
+    background-color: cornflowerblue;
+    
+}
+.content{
+    height:400px ;
+    background-color: cyan;
+     
+}
+.footer{
+    height: 100px;
+    background-color: rgb(53, 81, 81); 
+}
+.logo{
+    width: 30%;
+
+    height: 100%;
+    background-color: rgb(98, 165, 194);
+    float: left;
+    text-align: center;
+}
+.logo a img{
+    margin-top: 30px;
+    
+   
+}
+
+.menu{
+    width: 70%;
+    background-color: rgb(114, 111, 195);
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+.main-menu{
+    margin-top: 35px;
+}
+
+.main-menu ul,li{
+    display: inline-block;
+}
+
+.main-menu ul li a{
+    font-size: 20px;
+    font-family: monospace;
+    padding:10px 5px;
+    background-color:rgb(22, 240, 243) ;
+    border-radius: 10px;
+    display: block;
+   
+   
+  
+}
+.main-menu ul li a:hover{
+    background-color: rgb(203, 125, 97);
+    transition: all ease 1s;
+    
+}
+.banner{
+    background: url(../img/bg-image.jpg) ;
+    background-size: cover;
+}
+.banner-txt{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.banner-txt h1{
+    font-size: 35px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.banner-txt p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 20px 25px;
+   
+}
+.banner-txt button{
+    border-style: none;
+    font-size: 20px;
+    padding: 10px;
+    color: azure;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin: 0 10px;
+    text-transform: capitalize;
+    
+}
+.banner-txt button:hover{
+    background-color: transparent;
+    transition:all 0.5s linear ;
+    color: black;
+}
+.content-col{
+    width: 350px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.footer{
+    text-align: center;
+    font-style: italic;
+
+   
+}

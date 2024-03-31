@@ -1,0 +1,368 @@
+/*common css start here*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+    color: black;
+}
+.p100{
+    padding: 100px 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/*common css end here*/
+
+/* menu css star here*/
+
+.full{
+    width: 100%;
+}
+.main{
+    width: 1170px;
+    margin: auto;
+}
+
+.header{
+    padding: 20px 0;
+}
+
+.main_menu{
+    display: flex;
+}
+
+.logo{
+    width: 20%;
+}
+.menu{
+    width: 80%;
+}
+.top_menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.top_menu ul li a{
+    display: block;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: #1D1D1D;
+   
+
+}
+.top_menu ul li a i{
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+.top_menu{
+ display: flex;   
+ justify-content: end;
+}
+.common_btn button {
+    border-style: none;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 27px;
+    color:  #1361F5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.common_btn button:hover,
+.common_btn button.active{
+    background-color:  #1361F5;
+    color: white;
+    transition: all 0.5s linear;
+
+}
+/*menu css end here*/
+
+/*banner css start here*/
+
+.banner_inner{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner_txt{
+    width: 45%;
+   
+}
+.banner_img{
+    width: 45%;
+   
+}
+.banner_txt h1{
+    color: #1D1D1D;
+    font-weight: 600;
+    font-size: 48px;
+}
+.banner_txt p{
+    
+    color: #223140;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: -1px;
+    margin: 50px 0;
+
+}
+.banner_txt h1 span{
+    display: block;
+}
+.banner_button button{
+    background-color: transparent;
+    border: 1px solid #444;
+    
+}
+.banner_button button.active{
+    border-color: transparent;
+}
+/*banner css end here*/
+
+
+
+/*Features css start here*/
+
+.features_row{
+    display: flex;
+   
+}
+.features_col{
+    width: 20%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 3px #ebe8e8;
+
+}
+.features_col h3{
+    color: #223140;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.features_col p{
+    font-size: 18px;
+    margin: 10px 0;
+   
+
+}
+.features_col i{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #ECB22D;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/*Features css end here*/
+
+
+/*Workflow css start here*/
+
+.common_title_row{
+    text-align: center;
+}
+.common_title_row h2{
+    color: #1D1D1D;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+    letter-spacing: -1px;
+   
+}
+.common_title_row h4{
+  
+    font-weight: 700;
+    color: #094BCA;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+    letter-spacing: -1px;
+
+}
+.common_title_row p{
+    font-size: 18px;
+    color: #223140;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+}
+.work_row{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.work_col{
+    width: 40%;
+    padding: 80px 0;
+}
+.function_txt .common_title_row{
+    text-align: left;
+}
+.function_txt .common_title_row p{
+    margin:20px 0;
+}
+
+.work_col img{
+    max-width: 100%;
+}
+.common_title_row .banner_button button{
+    margin-left: 0;
+}
+
+/*Workflow css end here*/
+
+
+/*Client Section css start here*/
+.client_row {
+    display: flex;
+    margin-top: 120px;
+}
+.client_col{
+    width: 25%;
+    box-shadow: 0px 1px 7px 4px #f5f5f5;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.client_col img{
+    margin-top: -56px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.client_col p{ 
+    padding-top: 20px;
+    color: #535558;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    text-align: center;
+
+}
+.client_col h2{  
+    padding: 30px 0;
+    color: #7a6060;
+    text-align: center;
+    font-family: Secular One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.293px;
+
+}
+.client_col h4{
+    color: #223140;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    
+}
+
+
+
+/*Client Section css end here*/
+
+
+
+/* counter css start here  */
+.counter{
+    padding-bottom: 80px;
+}
+.counter_row{
+    display: flex;
+}
+.counter_col{
+    width: 20%;
+    text-align: center;
+    
+}
+.counter_col h2{
+    color: #094BCA;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.counter_col p{
+    font-size: 18px;
+    color: #223140;
+    margin-top: 30px;
+
+
+}
+
+/* counter css end here  */
+
+/* blog css start here  */
+.blog_row_col{
+    display: flex;
+    margin-top: 50px;
+}
+.blog_col{
+    width: 33%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 4px #f5f5f5;
+
+}
+.blog_btn .btn{
+    background-color: #f2f5f9;
+    font-size: 12px;
+    font-weight: 600;
+    color: #004CE6;
+    padding: 0 10px;
+}
+.blog_img img{
+    width: 100%;
+}
+.blog_txt h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #223140;
+    margin: 20px 0;
+   
+}
+.blog_txt {
+    padding: 20px ;
+   
+    
+}
+.blog_txtbtn .btn{
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #094BCA;
+}
+
+/* blog css end here  */
+
+
